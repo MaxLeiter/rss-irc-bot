@@ -9,13 +9,17 @@
   "private": false,
   "scripts": {
     "start": "node index.js",
-    "test": "eslint .",
+    "test": "eslint ."
   },
   "dependencies": {
+    "ip": "^1.1.5",
+    "irc-colors": "^1.4.3",
     "irc-framework": "^3.1.0",
     "rss-feed-emitter": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
