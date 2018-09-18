@@ -1,0 +1,21 @@
+{
+  "name": "rss-irc-bot",
+  "version": "1.0.0",
+  "description": "Watches RSS feeds and writes to IRC",
+  "main": "index.js",
+  "repository": "https://github.com/MaxLeiter/rss-irc-bot",
+  "author": "MaxLeiter",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint .",
+  },
+  "dependencies": {
+    "irc-framework": "^3.1.0",
+    "rss-feed-emitter": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+  }
+}
