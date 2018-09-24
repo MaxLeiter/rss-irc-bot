@@ -6,7 +6,6 @@ const config = {
   botName: 'rss-feeder',
   realName: 'RSS2IRC bot - https://github.com/MaxLeiter/rss-irc-bot',
   password: 'password',
-  ignore: [''], // array of nicknames
   feeds:
   [
     { url: 'https://fivethirtyeight.com/all/feed', refresh: 60000 },
