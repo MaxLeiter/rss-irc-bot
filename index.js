@@ -45,7 +45,7 @@ bot.connect({
 bot.on('join', (event) => {
   if (event.nick === config.botName) {
     feeder.on('new-item', (item) => {
-      bot.say(config.channel, `[${item.date}] ${c.blue(item.title)} - ${item.link} by ${item.author}`);
+      bot.say(config.channel, `${c.blue(item.title)} - ${item.link} by ${item.author}`);
     });
   }
 });
